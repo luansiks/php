@@ -11,7 +11,7 @@
     <main>
         <?php 
             $nome = $_REQUEST["nome"] ?? "desconecido";
-            $sobrenome = $_REQUEST["sobrenome"] ?? "não indentificado";
+            $sobrenome = $_REQUEST["sobrenome"] ?? "não indentificadog";
             print"é um prazer te conhecer <strong>$nome $sobrenome</strong>.";
         ?>
         <p><a href="index.html" target="_self" real="exit">sair</a></p>
